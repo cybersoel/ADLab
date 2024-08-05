@@ -1,57 +1,61 @@
-<h1>Active Directory Home Lab</h1>
+<h1>My Projects</h1>
+
+
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/bOYjR6G.png" height="80%" width="80%" alt="Summary Diagram"/>
+<br />
 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Setting up a virtualized Active Directory domain controller using Oracle VM VirtualBox, then leveraging PowerShell scripting to automate bulk user account creation and management in the directory service.
 <br />
 
+# Project walk-through
 
-<h2>Languages and Utilities Used</h2>
+***Files to Prepare***
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+VirtualBox
 
-<h2>Environments Used </h2>
+- Oracle VirtualBox Platform Package
+- Oracle VirtualBox Extension Pack
 
-- <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+Windows
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+- Windows Server ISO file
+- Windows 10 ISO file
+  - How to download without installing Media Creation Tool:
+    - Browse to Microsoft window 10 download page with either Microsoft Edge or Google
+Chrome.
+    - Select [more tools] > [Developer tools] or Press *F12*
+    - Select [customize] > [more tools] > [Network Condition]
+    - Select [Network condition] > [User agent –BlackBerry BB10]
+    - Now you can download Windows 10 ISO file
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+---
+
+***Installing Virtual Box***
+ 
+- Install VirtualBox Platform Package
+
+  - How to fix "Missing Dependencies Python Core /win32api" error:
+    - Install python (run as Admin) 
+    - Check [Use admin Privileges...] and [Add to PATH]
+    - Open PowerShell and run: [py –m pip install pywin32]
+
+- Install VirtualBox Extension Pack
+    - Extension pack features enhanced user experience such as Drag&Drop function
+
+---
+
+
+
+
+<img width="597" alt="Portfolio" src="https://i.imgur.com/JgsmMii.png">
+
+
+
+
+
+
