@@ -1,14 +1,21 @@
-<h1>Summary Diagram</h1>
+<h1 align="center">Summary Diagram</h1>
 
 
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/yNvZ7Lx.png" height="80%" width="80%" alt="Summary Diagram"/>
 <br />
+</p>
 
+<br />
+<br />
+<br />
+<br />
 
+<h1 align="center">Project walk-through</h1>
 
-# Project walk-through
-
+<br />
+<br />
 
 ***Files to Prepare***
 
@@ -91,7 +98,7 @@ Windows
 After configuring all the settings, double-click the VM. Select [next] > [Install now]
 
  - Select [Windows Server Standard Evaluation (Desktop Experience)]
-    - *Your VM will run in Graphical User Interface (GUI) with this option*
+    - *With this option, your VM will run in a Graphical User Interface (GUI).*
 <p align="center">
 <br/>
 <img width="530" alt="Portfolio" src="https://i.imgur.com/WVvLdyj.png">
