@@ -91,10 +91,10 @@ Windows
 After configuring all the settings, double-click the VM. Select [next] > [Install now]
 
  - Select [Windows Server Standard Evaluation (Desktop Experience)]
-
+    - *Your VM will run in Graphical User Interface (GUI) with this option*
 <p align="center">
 <br/>
-<img width="597" alt="Portfolio" src="https://i.imgur.com/WVvLdyj.png">
+<img width="530" alt="Portfolio" src="https://i.imgur.com/WVvLdyj.png">
 <br />
 
 
