@@ -24,7 +24,6 @@ Windows
 - Windows 10 ISO file
   - How to bypass installing the Media Creation Tool:
     - Browse the Microsoft Windows 10 download page with Microsoft Edge or Google Chrome.
-Chrome.
     - Select [more tools] > [Developer tools] or Press *F12*
     - Select [customize] > [more tools] > [Network Condition]
     - Select [Network condition] > [User agent –BlackBerry BB10]
@@ -90,9 +89,10 @@ Chrome.
 ***Microsoft Server OS Setup***
 
 After configuring all the settings, double-click the VM. Select [next] > [Install now]
- 
+
+ - Select [Windows Server Standard Evaluation (Desktop Experience)]
+
 <p align="center">
-Select [Windows Server Standard Evaluation (Desktop Experience)]
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/WVvLdyj.png">
 <br />
