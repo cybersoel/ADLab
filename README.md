@@ -48,7 +48,7 @@ Windows
   - How to fix the "Missing Dependencies Python Core /win32api" error:
     - Install python (run as Admin) 
     - Check [Use admin Privileges...] and [Add to PATH]
-    - Open PowerShell and run: [py –m pip install pywin32]
+    - Open PowerShell and run: `py –m pip install pywin32`
 
 - Install VirtualBox Extension Pack
     - Extension pack features enhanced user experience, such as the Drag&Drop function
