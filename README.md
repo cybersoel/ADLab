@@ -37,7 +37,7 @@ Windows
 
 ---
 
-<h4>Tip: any configurations that are not mentioned in the walkthrough can be left as default setting</h4>
+<h4>Tip: Any configuration options not mentioned in the walkthrough can be left at their default settings</h4>
 
 ---
 
