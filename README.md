@@ -57,13 +57,12 @@ Windows
 
 ***Domain Controller VM Configuration***
  
-- Set up Name and Operating System
+- VM Name and Operating System
+  - Open Oracle VirtualBox
   - Click on [New] 
-  - Name: DomainController (or whatever name you prefer)
-  - Type: Microsoft Windows
-  - Version: Other Windows (64bits)
+  - Name: Domain_Controller (or whatever name you prefer)
   - ISO Image: browse and pick the Windows Server ISO file
-
+  - Check the box [Skip Unattended Installation]
 
 <p align="center">
 <br/>
