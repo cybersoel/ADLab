@@ -149,13 +149,15 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Double-click [VboxWindowsAddition-amd64]
+ - Double-click on [VboxWindowsAddition-amd64]
  - Install with default settings. When you are prompt to reboot after installation, click on [I want to manually reboot later]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/a6DvkAD.png">
 <br />
+  
  - After the installation, shut down the VM. (Clicking restart sometimes gives an error.) Then, rerun the Domain Controller VM.
+
 <br />
 <br />
 
