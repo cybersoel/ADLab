@@ -340,6 +340,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
  - Name the OU "_ADMINS." Since this is a lab environment, you can uncheck [Protect container from accidental deletion]
 <p align="center">
@@ -397,6 +398,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
 
 
@@ -404,6 +406,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/GbxCrdD.png">
+<br />
 <br />
 <br />
 <br />
@@ -415,12 +418,15 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which will be installed later) to be on the private virtual network but still access the Internet via the Domain Controller.
 <br />
 <br />
+<br />
+<br />
 
  - We must install a Remote Access Server (RAS) before installing NAT.
  - Open [Server Manager], click on [Add roles and features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/71DudxG.png">
+<br />
 <br />
 <br />
 <br />
@@ -433,12 +439,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 35
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/qBncaQZ.png">
+<br />
 <br />
 <br />
 <br />
@@ -451,12 +459,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 37
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/cwVM77z.png">
+<br />
 <br />
 <br />
 <br />
@@ -470,6 +480,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 
@@ -480,6 +491,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 
@@ -487,6 +499,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/BedkbQY.png">
+<br />
 <br />
 <br />
 <br />
@@ -501,6 +514,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 42
@@ -510,11 +524,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 43
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/gmkEu2d.png">
+<br />
 <br />
 <br />
 <br />
@@ -527,6 +543,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 45
@@ -536,12 +553,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 46
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/WKCLk8z.png">
+<br />
 <br />
 <br />
 <br />
@@ -555,6 +574,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 
@@ -562,6 +582,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/eU04f8K.png">
+<br />
 <br />
 <br />
 <br />
@@ -577,6 +598,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 
@@ -587,12 +609,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 51
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/0ps5Ek3.png">
+<br />
 <br />
 <br />
 <br />
@@ -606,11 +630,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 53 (the image needs to be fixed !)
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/XIRVYKa.png">
+<br />
 <br />
 <br />
 <br />
@@ -623,12 +649,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 55
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/c898UxO.png">
+<br />
 <br />
 <br />
 <br />
@@ -641,6 +669,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 57
@@ -650,12 +679,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 58
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/KVwJXau.png">
+<br />
 <br />
 <br />
 <br />
@@ -669,12 +700,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 60
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/z14KYng.png">
+<br />
 <br />
 <br />
 <br />
@@ -687,11 +720,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 62
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/Rw8uFXo.png">
+<br />
 <br />
 <br />
 <br />
@@ -703,12 +738,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 64
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/t9Wiz50.png">
+<br />
 <br />
 <br />
 <br />
@@ -722,12 +759,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 66
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4KnUfGC.png">
+<br />
 <br />
 <br />
 <br />
@@ -740,6 +779,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 68
@@ -749,7 +789,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
-
+<br />
 
 
 
@@ -757,6 +797,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/aQtz0NQ.png">
+<br />
 <br />
 <br />
 <br />
@@ -769,11 +810,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 71
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/b5lbS0O.png">
+<br />
 <br />
 <br />
 <br />
@@ -785,11 +828,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 73
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/54eUZxx.png">
+<br />
 <br />
 <br />
 <br />
@@ -799,6 +844,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/x3royMF.png">
+<br />
 <br />
 <br />
 <br />
@@ -812,6 +858,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 76
@@ -821,11 +868,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 77
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/wbJvvTp.png">
+<br />
 <br />
 <br />
 <br />
@@ -840,12 +889,14 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 
 79
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/2TsjKBO.png">
+<br />
 <br />
 <br />
 <br />
@@ -858,11 +909,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 81
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/nc1OeaN.png">
+<br />
 <br />
 <br />
 <br />
@@ -875,11 +928,13 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 <br />
 <br />
+<br />
 
 83
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4orHm7n.png">
+<br />
 <br />
 <br />
 <br />
@@ -889,6 +944,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/J68fYzN.png">
+<br />
 <br />
 <br />
 <br />
