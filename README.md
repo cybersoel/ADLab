@@ -276,7 +276,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-21
+ - Check the box: [Domain Name System (DNS) server)]
+    - *We won't use the DSRM function. However, we need to set up a Password to proceed.*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/JBUWeT3.png">
@@ -284,7 +285,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-22
+ - Uncheck the box [Create DNS delegation], and proceed to [Install]. When the installation is complete, your VM will reboot automatically.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/bqynbT9.png">
@@ -292,7 +293,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-23
+ - You will notice the difference, now MYDOMAIN is displayed on the left side of the built-in admin account. Proceed to log in. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/QEAzN97.png">
@@ -300,7 +301,12 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-24
+---
+
+***Creating a Domain Admin User Account*
+
+ - We will create our own admin account instead of using the built-in admin account.
+ - Open the start menu and go to [Windows Administrative Tools] - [Active Directory Users and Computers]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/zbUgEdR.png">
@@ -308,7 +314,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-25
+ - Right-click newly created domain: mydomain.com. Create a new OU (organizational Unit)
+    - *We won't go over the concept of OU. For now, you can think of it as a folder in the active directory.*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/8cMeT7D.png">
@@ -316,7 +323,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-26
+ - Name the OU "_ADMINS." Since this is a lab environment, you can uncheck [Protect container from accidental deletion]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/QteaDVo.png">
@@ -324,7 +331,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-27
+ - Create a new User in [_ADMINS]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/rcC8pp0.png">
@@ -332,7 +339,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-28
+ - Type your first and last name. Set up login name. Click on [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/PjwmtNM.png">
@@ -340,7 +347,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-29
+ - Type the Password for the account. Since we are in a lab environment, we will uncheck the box [User must change Password at next logon] and check the box [Password never expires] 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/PkJXDCv.png">
@@ -349,7 +356,9 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 
-30
+ - We have successfully created a new user account. However, we need to set up the User as Domain Admin.
+ - Go to [Properties] of the new User.
+ - Select [Member Of] > [Add]. Type "Domain Admins" for the object name. Click on [Check Name] > [OK]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/KXnfkEz.png">
@@ -357,8 +366,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-
-31
+ - Click on [Apply] > [Ok].
+ - Now we have our very own domain admin account!
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/Z1ywwtb.png">
@@ -368,7 +377,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 
 
-32
+ - Log out the current account and log in with the new admin account.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/GbxCrdD.png">
@@ -376,8 +385,16 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
+---
 
-33
+***Installing Remote Access Server (RAS) / Network Address Translation (NAT) on the DC***
+
+The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which will be installed later) to be on the private virtual network but still access the Internet via the Domain Controller.
+<br />
+<br />
+
+ - We must install a Remote Access Server (RAS) before installing NAT.
+ - Open [Server Manager], click on [Add roles and features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/71DudxG.png">
