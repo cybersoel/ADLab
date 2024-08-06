@@ -482,7 +482,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 53 (the image needs to be fixed !)
 <p align="center">
 <br/>
-<img width="597" alt="Portfolio" src="https://i.imgur.com/Y1SdFzc.png">
+<img width="597" alt="Portfolio" src="https://i.imgur.com/XIRVYKa.png">
 <br />
 
 
