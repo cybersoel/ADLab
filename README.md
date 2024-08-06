@@ -167,7 +167,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
  - The Domain Controller VM server has 2 NICs, one for the Internet and another for the internal network. See the diagram below:
 <p align="center">
 <br/>
-<img width="597" alt="Portfolio" src="https://i.imgur.com/pDxFBwo.png">
+<img width="400" alt="Portfolio" src="https://i.imgur.com/pDxFBwo.png">
 <br />
   
  - The first one on the left is NATed, which means it will share the same IP address as your home router. However, we must manually assign an IP address for the second one.
@@ -303,7 +303,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 ---
 
-***Creating a Domain Admin User Account*
+***Creating a Domain Admin User Account***
 
  - We will create our own admin account instead of using the built-in admin account.
  - Open the start menu and go to [Windows Administrative Tools] - [Active Directory Users and Computers]
