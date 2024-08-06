@@ -169,6 +169,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br/>
 <img width="400" alt="Portfolio" src="https://i.imgur.com/pDxFBwo.png">
 <br />
+  
   - *The first NIC on the left is NATed, which means it will share the same IP address as your home router. However, we must manually assign an IP address for the second NIC.*
    
 <br />
