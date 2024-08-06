@@ -101,28 +101,33 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br/>
 <img width="530" alt="Portfolio" src="https://i.imgur.com/WVvLdyj.png">
 <br />
-
+<br />
+<br />
 
  - Choose [Custom: Install Windows only (advanced)]
-    - *This means formatting the hard drive and installing it from scratch.
+    - *This means formatting the hard drive and installing it from scratch.*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/kCXHbZ4.png">
 <br />
-
+<br />
+<br />
 
  - When installing, your VM will reboot multiple times. During the black screen, don't touch anything.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/CGvHU5n.png">
 <br />
-
+<br />
+<br />
+  
  - Set up your Password for the built-in Admin account (in this lab: Password1). You will prompt to press [Ctrl+Alt+Delete] on the locked screen. Instead of using a keyboard, manually click on [input] > [keyboard] >[Insert Ctrl-Alt-Del] at the top-left of your screen. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/fNtMwMv.png">
 <br />
-
+<br />
+<br />
 
 7
 <p align="center">
