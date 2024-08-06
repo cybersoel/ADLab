@@ -120,8 +120,13 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
-  
- - Set up your Password for the built-in Admin account (in this lab: Password1). You will prompt to press [Ctrl+Alt+Delete] on the locked screen. Instead of using a keyboard, manually click on [input] > [keyboard] >[Insert Ctrl-Alt-Del] at the top-left of your screen. 
+
+---
+<br />
+***Installing VM guest Addition***
+<br />
+<br />
+ - Set up your Password for the built-in Admin account (in this lab: Password1). You will be asked to press [Ctrl+Alt+Delete] on the locked screen. Instead of using a keyboard, manually click on [input] > [keyboard] >[Insert Ctrl-Alt-Del] at the top-left of your screen. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/fNtMwMv.png">
@@ -129,7 +134,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-7
+ - Installing the VM guest addition will improve the user experience. It will provide smoother mouse cursor movement and the function to auto-adjust resolution to the VM scroll size.
+ - Select [Devices] > [Insert Guest Additions CD image…] at the top left of your screen.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/9ZgudbV.png">
