@@ -432,7 +432,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 
 
-34
+ - Pick the domain controller server. [DomainController.mydomain.com]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/w0mP6rG.png">
@@ -442,7 +442,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 
 
-35
+ - Check the [Remote Access] box for the role.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/qBncaQZ.png">
@@ -452,7 +452,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 
 
-36
+ - Check both boxes [Routing] and [DirectAccess and VPN (RAS)]. Click [next] and [install]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/JDUAoWG.png">
@@ -462,7 +462,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 
 
-37
+ - Now, let's install NAT. Open [Server Manager]. Select [Tools] >[Routing and Remote Access]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/cwVM77z.png">
@@ -473,7 +473,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 
 
 
-38
+ - Right-click on [the domain controller server], then select [Configure and Enable Routing and Remote Access]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/kMSZSM0.png">
@@ -484,7 +484,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 
 
 
-39
+ - Select [Network address translation (NAT)]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/U6exubN.png">
@@ -495,7 +495,8 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 
 
 
-40
+ - Check the box [use this public interface to connect to the Internet] (if this check box is not active, close the [Routing and Remote Access] window, and try opening it again)
+ - Select [_INTERNET_] > [Next] > [Next] > [Finish]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/BedkbQY.png">
@@ -507,7 +508,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 
 
 
-41
+ - After the installation, our DC server is marked with a green icon, which means it is active and no longer "unconfigured."
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/E0vce5D.png">
@@ -517,7 +518,18 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 <br />
 
 
-42
+---
+
+***Setting up the DHCP server on the DC server***
+
+Setting up the DHCP server on our Domain Controller allows the DC to assign IP addresses to Windows 10 VM clients
+
+<br />
+<br />
+<br />
+<br />
+
+ - Open [Server Manager]. Click on [add roles & features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/06HMc7y.png">
