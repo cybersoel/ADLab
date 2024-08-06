@@ -191,8 +191,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
-  
-   - An IP address beginning with 169.254 is called an Automatic Private IP Addressing (APIPA) IP address, which means the adapter was looking for a DHCP server to get an IP address but could not find one. This network is for the VM internal network.
+    
+     - An IP address beginning with 169.254 is called an Automatic Private IP Addressing (APIPA) IP address, which means the adapter was looking for a DHCP server to get an IP address but could not find one. This network is for the VM internal network.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/MnYIErL.png">
@@ -216,11 +216,11 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
  - Configure like below:
-  - IP address: 172.16.0.1 (or any address that is in the private IP address range)
-  - Subnet mask:255.255.255.0
-  - Default gateway: n/a (because the domain controller itself serves as a default gateway)
-  - Preferred DNS server: either 172.16.0.1 (The same IP address as itself) or 127.0.0.1 (loopback address)
-     - *When we install an Active Directory later, it automatically installs DNS. This server will use itself as the DNS server.*
+    - IP address: 172.16.0.1 (or any address that is in the private IP address range)
+    - Subnet mask:255.255.255.0
+    - Default gateway: n/a (because the domain controller itself serves as a default gateway)
+    - Preferred DNS server: either 172.16.0.1 (The same IP address as itself) or 127.0.0.1 (loopback address)
+       - *When we install an Active Directory later, it automatically installs DNS. This server will use itself as the DNS server.*
 
 <br />
 <br />
