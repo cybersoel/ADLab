@@ -164,7 +164,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 ---
 ***Assigning IP address to the internal network NIC (Network Interface Card)***
 
- - The Domain Controller VM server has 2 NICs, one for the Internet and another for the internal network. See the diagram below:
+ - The Domain Controller VM server will have 2 NICs, one for the Internet and another for the internal network. See the diagram below:
 <p align="center">
 <br/>
 <img width="400" alt="Portfolio" src="https://i.imgur.com/pDxFBwo.png">
