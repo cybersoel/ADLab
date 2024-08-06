@@ -169,7 +169,9 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/pDxFBwo.png">
 <br />
+  
  - The first one on the left is NATed, which means it will share the same IP address as your home router. However, we must manually assign an IP address for the second one.
+   
 <br />
 <br />
 
