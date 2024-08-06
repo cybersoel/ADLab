@@ -627,15 +627,111 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 71
 <p align="center">
 <br/>
-<img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
+<img width="597" alt="Portfolio" src="https://i.imgur.com/b5lbS0O.png">
 <br />
 
 
 72
 <p align="center">
 <br/>
-<img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
+<img width="597" alt="Portfolio" src="https://i.imgur.com/w9C905T.png">
 <br />
+
+
+73
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/54eUZxx.png">
+<br />
+
+
+
+74
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/x3royMF.png">
+<br />
+
+
+
+
+75
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/2ymfHWu.png">
+<br />
+
+
+
+76
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/pgDsiKj.png">
+<br />
+
+
+77
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/wbJvvTp.png">
+<br />
+
+
+
+
+
+78
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/KBgYQNj.png">
+<br />
+
+
+
+79
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/2TsjKBO.png">
+<br />
+
+
+
+80
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/SSKsv34.png">
+<br />
+
+
+81
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/nc1OeaN.png">
+<br />
+
+
+
+82
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/85qaMHH.png">
+<br />
+
+
+83
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/4orHm7n.png">
+<br />
+
+
+
+84
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/J68fYzN.png">
+<br />
+
 
 
 
