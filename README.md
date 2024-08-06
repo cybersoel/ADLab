@@ -103,5 +103,113 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 
+4
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/kCXHbZ4.png">
+<br />
+
+
+5
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/CGvHU5n.png">
+<br />
+
+6
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/fNtMwMv.png">
+<br />
+
+
+7
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/9ZgudbV.png">
+<br />
+
+
+8
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/yyBpdJG.png">
+<br />
+
+
+9
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/a6DvkAD.png">
+<br />
+
+
+10
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/pDxFBwo.png">
+<br />
+
+11
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/S7SsvGn.png">
+<br />
+
+12
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/kDqJpGv.png">
+<br />
+
+13
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/MnYIErL.png">
+<br />
+
+14
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/dZasj5s.png">
+<br />
+
+15
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/M4dz5bL.png">
+<br />
+
+16
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/4yo7XTQ.png">
+<br />
+
+
+17
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/4Zm3ome.png">
+<br />
+
+18
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/zFHw44X.png">
+<br />
+
+19
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
+<br />
+
+20
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
+<br />
+
 
 
