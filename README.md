@@ -175,8 +175,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-  
-11
+ - Go to network setting, click on [Change adapter options]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/S7SsvGn.png">
@@ -184,7 +183,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
-12
+ - You will see two adapters (NICs). We need to compare the network connection details of each adapter and determine which one is for the internal network.
+ - Take a look at the first NIC. The IP address 10.0.2.15 is a default IP address you get from NAT, meaning that this adapter uses your home router.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/kDqJpGv.png">
@@ -192,7 +192,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
-13
+ - An IP address beginning with 169.254 is called an Automatic Private IP Addressing (APIPA) IP address, which means the adapter was looking for a DHCP server to get an IP address but could not find one. This network is for the VM internal network.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/MnYIErL.png">
@@ -200,7 +200,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
-14
+ - Rename each network to "_INTERNET_" and "X_Internal_X" (for clarity). 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/dZasj5s.png">
@@ -208,14 +208,27 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
-15
+ - Right-click the "X_Internal_X" and click on [Properties]
+ - In the [Networking] tab, select [ Internet Protocol Version 4] > [Properties]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/M4dz5bL.png">
 <br />
+
+ - Configure like below:
+  - IP address: 172.16.0.1 (or any address that is in the private IP address range)
+  - Subnet mask:255.255.255.0
+  - Default gateway: n/a (because the domain controller itself serves as a default gateway)
+  - Preferred DNS server: either 172.16.0.1 (The same IP address as itself) or 127.0.0.1 (loopback address)
+   - *When we install an Active Directory later, it automatically installs DNS. This server will use itself as the DNS server.*
+
 <br />
 <br />
-  
+
+---
+
+***Installing ADDS (Active Directory Domain Service)***
+
 16
 <p align="center">
 <br/>
