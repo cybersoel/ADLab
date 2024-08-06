@@ -237,7 +237,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - You will be asked to pick a server on which you want to install Active Directory. - choose DomainController. Click on [Next]
+ - You will be asked to pick a server on which you want to install Active Directory. Choose [DomainController]. Click on [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4Zm3ome.png">
@@ -253,8 +253,13 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
-  
-19
+
+---
+***Setting up Domain***
+
+
+ - We've successfully installed the active directory domain services software. However, we still need to configure a domain.
+ - Click on the yellow notification sign for Post-deployment Configuration.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/5i34KvY.png">
@@ -262,7 +267,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
-20
+ - [Add a new forest] - [Root domain name: mydomain.com]
+   - *(you can enter any name you want for your domain.)*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/majUEGz.png">
