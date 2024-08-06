@@ -255,7 +255,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 ---
-***Setting up Domain***
+***Setting up a Domain***
 
 
  - We've successfully installed the active directory domain services software. However, we still need to configure a domain.
