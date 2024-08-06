@@ -192,7 +192,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
- - An IP address beginning with 169.254 is called an Automatic Private IP Addressing (APIPA) IP address, which means the adapter was looking for a DHCP server to get an IP address but could not find one. This network is for the VM internal network.
+   - An IP address beginning with 169.254 is called an Automatic Private IP Addressing (APIPA) IP address, which means the adapter was looking for a DHCP server to get an IP address but could not find one. This network is for the VM internal network.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/MnYIErL.png">
