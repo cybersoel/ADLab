@@ -466,7 +466,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 51
 <p align="center">
 <br/>
-<img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
+<img width="597" alt="Portfolio" src="https://i.imgur.com/0ps5Ek3.png">
 <br />
 
 
@@ -475,6 +475,167 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 52
 <p align="center">
 <br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/IECqsRf.png">
+<br />
+
+
+53 (the image needs to be fixed !)
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/Y1SdFzc.png">
+<br />
+
+
+
+54
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/iH3s0kP.png">
+<br />
+
+
+
+55
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/c898UxO.png">
+<br />
+
+
+
+56
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/xreaWCX.png">
+<br />
+
+
+
+57
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/haCXAF5.png">
+<br />
+
+
+
+58
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/KVwJXau.png">
+<br />
+
+
+
+
+59
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/q0VjRvh.png">
+<br />
+
+
+
+60
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/z14KYng.png">
+<br />
+
+
+
+61
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/T1QLusW.png">
+<br />
+
+
+62
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/Rw8uFXo.png">
+<br />
+
+
+63
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/kmtBW7t.png">
+<br />
+
+
+
+64
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/t9Wiz50.png">
+<br />
+
+
+
+
+65
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/ySOe6dO.png">
+<br />
+
+
+
+66
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/4KnUfGC.png">
+<br />
+
+
+
+67
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/7JsUXLt.png">
+<br />
+
+
+
+68
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/CIgGQau.png">
+<br />
+
+
+
+
+
+69
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/aQtz0NQ.png">
+<br />
+
+
+
+70
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/nkVGQwl.png">
+<br />
+
+
+71
+<p align="center">
+<br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
 <br />
+
+
+72
+<p align="center">
+<br/>
+<img width="597" alt="Portfolio" src="https://i.imgur.com/jzZy1YC.png">
+<br />
+
+
 
