@@ -229,7 +229,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 ***Installing ADDS (Active Directory Domain Service)***
 
-16
+ - Open [Server Manager]. Click on [Add roles and features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4yo7XTQ.png">
@@ -237,7 +237,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
-17
+ - You will be asked to pick a server on which you want to install Active Directory. - choose DomainController. Click on [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4Zm3ome.png">
@@ -245,7 +245,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
-18
+ - Choose ADDS (Active Directory Domain Service). Click on [Next] and [Install]
+ - **Again, any configuration options not mentioned in the walkthrough can be left at their default settings**
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/zFHw44X.png">
