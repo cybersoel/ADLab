@@ -204,11 +204,13 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
   
  - Rename each network to "_INTERNET_" and "X_Internal_X" (for clarity). 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/dZasj5s.png">
+<br />
 <br />
 <br />
 <br />
@@ -229,6 +231,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 <br />
 <br />
+<br />
+<br />
 
 ---
 
@@ -241,6 +245,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
  - You will be asked to pick a server on which you want to install Active Directory. Choose [DomainController]. Click on [Next]
 <p align="center">
@@ -249,12 +254,14 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
   
  - Choose ADDS (Active Directory Domain Service). Click on [Next] and [Install]
- - **Again, any configuration options not mentioned in the walkthrough can be left at their default settings**
+       - **Again, any configuration options not mentioned in the walkthrough can be left at their default settings**
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/zFHw44X.png">
+<br />
 <br />
 <br />
 <br />
@@ -271,12 +278,14 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
   
  - [Add a new forest] - [Root domain name: mydomain.com]
    - *(you can enter any name you want for your domain.)*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/majUEGz.png">
+<br />
 <br />
 <br />
 <br />
@@ -289,6 +298,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
  - Uncheck the box [Create DNS delegation], and proceed to [Install]. When the installation is complete, your VM will reboot automatically.
 <p align="center">
@@ -297,11 +307,13 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
  - You will notice the difference, now MYDOMAIN is displayed on the left side of the built-in admin account. Proceed to log in. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/QEAzN97.png">
+<br />
 <br />
 <br />
 <br />
@@ -315,6 +327,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/zbUgEdR.png">
+<br />
 <br />
 <br />
 <br />
@@ -335,11 +348,13 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
  - Create a new User in [_ADMINS]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/rcC8pp0.png">
+<br />
 <br />
 <br />
 <br />
@@ -351,11 +366,13 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 <br />
+<br />
 
  - Type the Password for the account. Since we are in a lab environment, we will uncheck the box [User must change Password at next logon] and check the box [Password never expires] 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/PkJXDCv.png">
+<br />
 <br />
 <br />
 <br />
@@ -367,6 +384,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/KXnfkEz.png">
+<br />
 <br />
 <br />
 <br />
