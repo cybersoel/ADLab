@@ -122,10 +122,9 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 ---
-<br />
+
 ***Installing VM guest Addition***
-<br />
-<br />
+
  - Set up your Password for the built-in Admin account (in this lab: Password1). You will be asked to press [Ctrl+Alt+Delete] on the locked screen. Instead of using a keyboard, manually click on [input] > [keyboard] >[Insert Ctrl-Alt-Del] at the top-left of your screen. 
 <p align="center">
 <br/>
