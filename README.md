@@ -246,7 +246,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 ---
 
-## Installing ADDS (Active Directory Domain Service)
+## Installing ADDS Active Directory Domain Service
 
  - Open [Server Manager]. Click on [Add roles and features]
 <p align="center">
