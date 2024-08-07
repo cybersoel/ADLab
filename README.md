@@ -25,7 +25,7 @@
 - [Microsoft Server OS Setup](#microsoft-server-os-setup)
 - [Installing VM guest Addition](#installing-vm-guest-addition)
 - [Assigning IP address to the internal network](#assigning-ip-address-to-the-internal-network)
-- [Installing ADDS (Active Directory Domain Service)](#installing-adds-\(active-directory-domain-service\))
+- [Installing ADDS (Active Directory Domain Service)](#installing-adds-active-directory-domain-service))
 - [Creating a Domain](#h)
 - [Creating a Domain Admin User Account](#i)
 - [Installing RAS/NAT](#j)
