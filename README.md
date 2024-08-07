@@ -18,7 +18,7 @@
 
 ---
 
-## Table of Contents:
+**Table of Contents:**
 - [Files to Prepare](#files-to-prepare)
 - [Installing Virtual Box](#installing-virtual-box)
 - [Domain Controller VM Configuration](#domain-controller-vm-configuration)
@@ -48,7 +48,6 @@
 
 ## Files to Prepare
 
-<h2 style="text-align: right; font-size: 1.2em;">Section 1</h2>
 
 VirtualBox
 
