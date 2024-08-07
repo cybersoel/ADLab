@@ -76,7 +76,7 @@ Windows
 
 <div style="text-align: right;">
   
-[back to top](#toc)
+- [back to top](#toc)
 
 </div>
 
