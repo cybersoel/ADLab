@@ -73,7 +73,7 @@ Windows
 ---
 
 ## Installing Virtual Box
-[back to top](#toc)
+<p align="right">[back to top](#toc)</p>
 - Install VirtualBox Platform Package
 
   - How to fix the "Missing Dependencies Python Core /win32api" error:
