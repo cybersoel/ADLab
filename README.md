@@ -45,9 +45,9 @@
 
 
 
-
-## Files to Prepare
 [back to top](#toc)
+## Files to Prepare
+
 
 VirtualBox
 
@@ -71,9 +71,9 @@ Windows
 <h4>Tip: Any configuration options not mentioned in the walkthrough can be left at their default settings</h4>
 
 ---
-
-## Installing Virtual Box 
 [back to top](#toc)
+## Installing Virtual Box 
+
 
 
 - Install VirtualBox Platform Package
