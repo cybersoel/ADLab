@@ -769,7 +769,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
  - Line 1: The variable `$PASSWORD_FOR_USERS` is going to store the password that all of the user accounts are going to use. (I set up as "Password1")
- - Line 2:  Pulls all the names from the "names.txt" file and puts them as an array into the variable `$User_First_Last_List`
+ - Line 2: Pull all the names from the "names.txt" file and store them as an array into the variable `$User_First_Last_List`
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/Rw8uFXo.png">
@@ -778,28 +778,24 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-63
+ - Line 6: Convert the plaintext password into a SecureString Object.
+      - *A secure string object is a string type that provides a measure of security by avoiding the storage of potentially sensitive strings in process memory, such as plain text.*
+ - Line 7: Create a new Organizational Unit (OU) `_USERS` in the Active Directory.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/kmtBW7t.png">
 <br />
 <br />
 <br />
-<br />
 
 
-64
+ - The screenshots below demonstrate what Line 7 code does in a Graphical User Interface (GUI).  
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/t9Wiz50.png">
 <br />
 <br />
-<br />
-<br />
 
-
-
-65
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/ySOe6dO.png">
@@ -809,17 +805,29 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 
-66
+ - Line 9-23 is a loop for creating new users in Active Directory.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4KnUfGC.png">
 <br />
 <br />
-<br />
+
+*Foreach loop breakdown:*
+
 <br />
 
+ - Line 9: Use the array `$USER_FIRST_LAST_LIST` and repeat following (`$n` is the representation of the current User that's being examined. For example, the first `$n` will be Soel Kwun)
+ - Lines 10 and 11: split the name string (currently being examined) based on the space, divide them into first name (`$first`) and last name (`$last`) 
+      - ex) Soel Kwun  > `$first` = soel , `$last` = kwun
+ - Line 12: create a variable `$username` and store the first letter from the variable `$first`, then append the string `$last`. (for example, `$username` of the first loop will be skwun)
+ - Line 13: display "Creating users:" `$username` with the background color black and the letter color cyan.
+      - This code is for PowerShell to alert us whenever a new user is created.
+ - Lines 15-23: this code will fill out all the information (password, name, ID, etc) when creating a new user and store it in the Organizational Unit "_USERS" (the OU we created with the previous cmdlet, `New-ADOrganizationalUnit`)
 
-67
+<br />
+
+ - The screenshots below demonstrate what lines 15~23 code does in a Graphical User Interface (GUI). 
+
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/7JsUXLt.png">
@@ -827,6 +835,11 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 <br />
+
+---
+
+***Running the PowerShell Script***
+
 
 
 68
