@@ -48,7 +48,7 @@
 
 ## Files to Prepare
 
-<p align="right"> back the Table of Contents </p>
+## <p align="right"> Back to the Table of Contents </p>
 
 VirtualBox
 
