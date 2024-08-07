@@ -538,7 +538,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
-43
+ - Select the domain controller server.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/gmkEu2d.png">
@@ -548,7 +548,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-44
+ - Select [DHCP role]. Click on [Next] and [Install].
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/CaZUGdN.png">
@@ -557,8 +557,16 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
+---
 
-45
+***Setting up DHCP scope***
+
+<br />
+<br />
+<br />
+
+ - You will see the yellow warning sign telling you that configuration is required for the DHCP server.
+ - Go to [Tools] > [DHCP]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/lIcEr64.png">
@@ -567,8 +575,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
-
-46
+ - IPv4 and IPv6 under the domain controller are in an "unconfigured" state. (Flagged with the red marks) 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/WKCLk8z.png">
@@ -579,7 +586,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
 
-47
+ - Click on [New Scope…]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/nVvmTn8.png">
