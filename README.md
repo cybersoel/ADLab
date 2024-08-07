@@ -48,7 +48,6 @@
 
 ## Files to Prepare
 
-<a name="section-1"></a>
 <h2 style="text-align: right; font-size: 1.2em;">Section 1</h2>
 
 VirtualBox
