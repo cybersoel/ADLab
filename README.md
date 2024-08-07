@@ -40,7 +40,6 @@
 - [Network Status Check](#network-status-check)
 - [Changing the hostname and Joining the domain group](#changing-the-hostname-and-joining-the-domain-group)
 - [Final Check: DHCP Control Panel & ADUC](#final-check-dhcp-control-panel--aduc)
-- [V](#v) | [W](#w) | [Y](#y) | [Z](#z)
 
 ---
 
