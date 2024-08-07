@@ -789,7 +789,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 
- - The screenshots below demonstrate what Line 7 code does in a Graphical User Interface (GUI).  
+ - *The screenshots below demonstrate what Line 7 code does in a Graphical User Interface (GUI).*  
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/t9Wiz50.png">
@@ -826,7 +826,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 <br />
 
- - The screenshots below demonstrate what lines 15~23 code does in a Graphical User Interface (GUI). 
+ - *The screenshots below demonstrate what lines 15~23 code does in a Graphical User Interface (GUI).*
 
 <p align="center">
 <br/>
