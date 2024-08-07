@@ -597,7 +597,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
 
-48
+ - Since this is a lab environment, let's set up the scope name as its actual range: 172.16.0.100-200. Click on [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/eU04f8K.png">
@@ -610,7 +610,11 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
 
-49
+ - Set up the IP Address Range (scope) like below:
+      - Start IP address: 172. 16. 0. 100
+      - End IP address: 172. 16. 0. 200
+      - Length: 24
+      - Subnet mask: 255. 255. 255. 0
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/GwHQWGi.png">
