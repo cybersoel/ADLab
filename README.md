@@ -28,7 +28,7 @@
 - [Installing ADDS (Active Directory Domain Service)](#installing-adds-active-directory-domain-service)
 - [Creating a Domain](#creating-a-domain)
 - [Creating a Domain Admin User Account](#creating-a-domain-admin-user-account)
-- [Installing RAS/NAT](#installing-ras/nat)
+- [Installing RAS/NAT](#installing-rasnat)
 - [DHCP Server Setup](#k)
 - [DHCP Scope Setup](#l)
 - [Exclusion, Lease Duration, and DHCP options](#m)
