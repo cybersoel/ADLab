@@ -73,12 +73,8 @@ Windows
 ---
 
 ## Installing Virtual Box 
+[back to top](#toc)
 
-<div style="text-align: right;">
-## 
-- [back to top](#toc)
-
-</div>
 
 - Install VirtualBox Platform Package
 
