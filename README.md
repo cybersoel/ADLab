@@ -840,9 +840,11 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 ***Running the PowerShell Script***
 
+<br />
+<br />
+<br />
 
-
-68
+ - Run the script by clicking on the arrow button on the top. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/CIgGQau.png">
@@ -853,7 +855,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 
 
-69
+ - Open [Active Directory Users and Computers] with your GUI. You will see the new OU and users created by the PowerShell script.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/aQtz0NQ.png">
@@ -862,8 +864,10 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
+---
+***Client Window 10 VM configuration***
 
-70
+ - Name your VM as Client1. Select the Windows 10 ISO file.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/nkVGQwl.png">
@@ -872,7 +876,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-71
+ - Configure all the settings the same way you did when installing the Domain Controller. The exception is the network setting: enable only one adapter with the [Internal Network]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/b5lbS0O.png">
@@ -881,7 +885,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-72
+ - Run the VM. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/w9C905T.png">
@@ -890,7 +894,15 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-73
+---
+***Client Windows 10 OS setup***
+
+<br />
+<br />
+<br />
+
+ - Choose Windows 10 Pro instead of Windows 10 Home.
+      - *(Otherwise, the client will not be able to join the AD domain)*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/54eUZxx.png">
@@ -900,7 +912,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 
-74
+ - Proceed to install. Ensure not to push any key when your VM is rebooting.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/x3royMF.png">
@@ -911,7 +923,10 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 
 
-75
+ - If you are asked to join Internet, just click [I don't have Internet]. Skip all the extra features offered since it will lead you to create Microsoft Account.
+ - Enter username you would like to use. Skip the password setting.
+ - Install VirtualBox Guest Edition to fix input lag and resolution.
+ - Restart the VM.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/2ymfHWu.png">
@@ -920,8 +935,11 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
+---
+***Network Status Check***
 
-76
+ - Run the Command Prompt and use the command `ipconfig` to check the network status. 
+ - If your domain controller VM is not running, you will retrieve information that tells you that things are not configured correctly.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/pgDsiKj.png">
@@ -930,7 +948,9 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-77
+ - Run the Domain Controller VM.
+ - Troubleshoot again from the Client VM. Run`ipconfig /renew`
+ - Now, you will see that the Windows 10 VM client has the correct IP address and the default gateway.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/wbJvvTp.png">
@@ -942,7 +962,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 
 
-78
+ - Ping www.google.com & mydomain.com to see if the network connection is stable.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/KBgYQNj.png">
@@ -951,8 +971,10 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
+---
+***Changing the hostname and Joining the domain group***
 
-79
+ - Run the `hostname` command. It will give you back the default PC name.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/2TsjKBO.png">
@@ -961,8 +983,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-
-80
+ - Go to [setting] > [system] > [about] > [rename this PC (advanced)] > [change…]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/SSKsv34.png">
@@ -971,7 +992,9 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-81
+ - Change the Computer name to "CLIENT1."
+ - Also, join the domain group mydomain.com. You will be prompt to enter the account name and the password. You can use the Domain Admin account credentials. 
+ - Restart the computer after changing the settings.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/nc1OeaN.png">
@@ -980,8 +1003,17 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
+---
+***Final Check: DHCP Control Panel & ADUC***
 
-82
+<br />
+<br />
+<br />
+
+ - Go back to the domain controller VM.
+ - Open the DHCP control panel. A new line is created in the Address Lease tab on the DHCP control panel.
+ - Open [Active Directory Users and Computers]. A new domain member, "CLIENT1," is created in the OU "Computers."
+      - *This means you can now log in to the VM client computer with any username and password we created previously with the PowerShell Script.*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/85qaMHH.png">
@@ -990,7 +1022,10 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
-83
+In a real corporate setting, the VM client can be imagined as a corporate laptop or computer, and you can log in to it with your corporate credentials. 
+
+
+ - Let's use the username "skwun" (or any username you want to use) to log in to the Client VM.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4orHm7n.png">
@@ -1000,11 +1035,19 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 
-84
+ - Run `whoami` in the command prompt.
+ - You can see you are a member of mydomain and your username is skwun.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/J68fYzN.png">
 <br />
+<br />
+<br />
+<br />
+
+
+<end>
+  
 <br />
 <br />
 <br />
