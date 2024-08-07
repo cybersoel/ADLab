@@ -748,7 +748,7 @@ Click on [Next]
 ---
 ## Automation: using PowerShell script to create 1000+ users
 
-I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating users and a list of random names in plain text ("names.txt").
+I have two files ready: 1) PowerShell script ("1_CREATE_USERS") for creating users and 2) list of random names in plain text ("names.txt").
 
 <br />
 <br />
