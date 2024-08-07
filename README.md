@@ -65,7 +65,7 @@ Windows
 
 ---
 
-***Domain Controller VM Configuration***
+## Domain Controller VM Configuration
  
 - VM Name and Operating System
   - Open Oracle VirtualBox
@@ -101,7 +101,7 @@ Windows
 
 ---
  
-***Microsoft Server OS Setup***
+## Microsoft Server OS Setup
 
 After configuring all the settings, double-click the VM. Select [next] > [Install now]
 
@@ -141,7 +141,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 ---
-***Installing VM guest Addition***
+## Installing VM guest Addition
  - Installing the VM guest addition will improve the user experience. It will provide smoother mouse cursor movement and the function to auto-adjust resolution to the VM scroll size.
  - Select [Devices] > [Insert Guest Additions CD image…] at the top left of your screen.
 <p align="center">
@@ -172,7 +172,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 ---
-***Assigning IP address to the internal network NIC (Network Interface Card)***
+## Assigning IP address to the internal network
 
  - The Domain Controller VM server will have 2 NICs, one for the Internet and another for the internal network. See the diagram below:
 <p align="center">
@@ -246,7 +246,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 ---
 
-***Installing ADDS (Active Directory Domain Service)***
+## Installing ADDS (Active Directory Domain Service)
 
  - Open [Server Manager]. Click on [Add roles and features]
 <p align="center">
@@ -277,7 +277,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 ---
-***Setting up a Domain***
+## Creating a Domain
 
 
  - We've successfully installed the active directory domain services software. However, we still need to configure a domain.
@@ -330,7 +330,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 ---
 
-***Creating a Domain Admin User Account***
+## Creating a Domain Admin User Account
 
  - We will create our own admin account instead of using the built-in admin account.
  - Open the start menu and go to [Windows Administrative Tools] - [Active Directory Users and Computers]
@@ -423,9 +423,9 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 ---
 
-***Installing Remote Access Server (RAS) / Network Address Translation (NAT) on the DC***
+## Installing RAS/NAT
 
-The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which will be installed later) to be on the private virtual network but still access the Internet via the Domain Controller.
+The purpose of installing RAS (Remote Access Server) / NAT (Network Address Translation) is to allow the Windows 10 VM client (which will be installed later) to be on the private virtual network but still access the Internet via the Domain Controller.
 <br />
 <br />
 <br />
@@ -530,7 +530,7 @@ The purpose of installing RAS/NAT is to allow the Windows 10 VM client (which wi
 
 ---
 
-***Setting up the DHCP server on the DC server***
+## DHCP Server Setup
 
 Setting up the DHCP server on our Domain Controller allows the DC to assign IP addresses to Windows 10 VM clients
 
@@ -569,7 +569,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 ---
 
-***Setting up DHCP scope***
+## DHCP Scope Setup
 
 <br />
 <br />
@@ -635,7 +635,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 ---
 
-***DHCP Scope: Exclusion, Lease Duration, and DHCP options***
+## Exclusion, Lease Duration, and DHCP options
 
 <br />
 <br />
@@ -725,7 +725,7 @@ Click on [Next]
 <br />
 
 ---
-***Automation: using PowerShell script to create 1000+ users***
+## Automation: using PowerShell script to create 1000+ users
 
 I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating users and a list of random names in plain text ("names.txt").
 
@@ -772,7 +772,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 
 ---
-***Code Breakdown***
+## PowerShell Script Code Breakdown
 
 <br />
 <br />
@@ -848,7 +848,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 ---
 
-***Running the PowerShell Script***
+## Running the PowerShell Script
 
 <br />
 <br />
@@ -875,7 +875,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 ---
-***Client Window 10 VM configuration***
+## Client Window 10 VM configuration
 
  - Name your VM as Client1. Select the Windows 10 ISO file.
 <p align="center">
@@ -905,7 +905,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 ---
-***Client Windows 10 OS setup***
+## Client OS setup
 
 <br />
 <br />
@@ -946,7 +946,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 ---
-***Network Status Check***
+## Network Status Check
 
  - Run the Command Prompt and use the command `ipconfig` to check the network status. 
  - If your domain controller VM is not running, you will retrieve information that tells you that things are not configured correctly.
@@ -982,7 +982,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 ---
-***Changing the hostname and Joining the domain group***
+## Changing the hostname and Joining the domain group
 
  - Run the `hostname` command. It will give you back the default PC name.
 <p align="center">
@@ -1014,7 +1014,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 
 ---
-***Final Check: DHCP Control Panel & ADUC***
+## Final Check: DHCP Control Panel & ADUC
 
 <br />
 <br />
