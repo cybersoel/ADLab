@@ -18,7 +18,7 @@
 
 ---
 
-**Table of Contents:** 
+## Table of Contents:
 - [Files to Prepare](#files-to-prepare)
 - [Installing Virtual Box](#installing-virtual-box)
 - [Domain Controller VM Configuration](#domain-controller-vm-configuration)
