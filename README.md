@@ -826,7 +826,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 
 <br />
 
- - *The screenshots below demonstrate what lines 15~23 code does in a Graphical User Interface (GUI).*
+ - *The screenshot below demonstrate what lines 15~23 code do in a Graphical User Interface (GUI).*
 
 <p align="center">
 <br/>
