@@ -175,7 +175,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Browse to [This PC], and click on the remote drive: [VirtualBox Guest Addition CD drive]
+ - Open [This PC], and click on the remote drive: [VirtualBox Guest Addition CD drive]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/yyBpdJG.png">
