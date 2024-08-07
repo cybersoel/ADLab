@@ -768,7 +768,7 @@ I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating user
 <br />
 <br />
 
- - Line 1: This variable is going to store the Password that all of the user accounts are going to use. (I set up as "Password1")
+ - Line 1: The variable `$PASSWORD_FOR_USERS` is going to store the password that all of the user accounts are going to use. (I set up as "Password1")
  - Line 2:  Pulls all the names from the "names.txt" file and puts them as an array into the variable `$User_First_Last_List`
 <p align="center">
 <br/>
