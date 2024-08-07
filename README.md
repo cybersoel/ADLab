@@ -623,9 +623,15 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
+---
 
+***DHCP Scope: Exclusion, Lease Duration, and DHCP options***
 
-50
+<br />
+<br />
+<br />
+
+ - You can set up exclusion. We are setting up which IP addresses we don't want to give clients within the range we set up previously. We can skip this part since we don't want any exclusion.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/uqoTEfj.png">
@@ -635,7 +641,8 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-51
+ - You can set up a Lease Duration. The lease duration you set up should be fulfilled before another device takes the same IP address.
+      - *For example, if you are a café owner, setting up the lease duration for 8 days will be too long since a customer usually finishes coffee in less than 2 hours. It makes more sense to set it up for 2 hours. We will go with the default eight days since this is a lab, and it doesn't matter.*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/0ps5Ek3.png">
@@ -646,7 +653,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
 
-52
+ - Now, we will set up the DHCP option. The DHCP option tells the clients which DNS server and Gateway to use. Check yes to proceed.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/IECqsRf.png">
@@ -655,7 +662,8 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
-53 (the image needs to be fixed !)
+ - The domain controller will be the clients' Default Gateway. (We previously installed RAS and NAT on the domain controller to forward traffic from the client to the Internet. )
+ - Put the IP address of the DC (172.16.0.1)
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/XIRVYKa.png">
@@ -665,7 +673,8 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-54
+ - When you install Active Directory on a server, it automatically installs a DNS server. We will use the domain controller as the DNS server.
+Click on [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/iH3s0kP.png">
@@ -675,7 +684,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-55
+ - Activate the scope.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/c898UxO.png">
@@ -685,7 +694,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-56
+ - If you still see red marks (state: unconfigured), right-click on the domain controller and select [Authorize] > [Refresh]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/xreaWCX.png">
@@ -695,7 +704,8 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-57
+ - You will now see the green light on IPv4, and IPv6 is on. From this control panel, you can explore all the configurations we made.
+      - *Right now, the Address Lease folder is empty because we have no client with an IP address from the DHCP server.*
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/haCXAF5.png">
@@ -704,8 +714,16 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
+---
+***Automation: using PowerShell script to create 1000+ users***
 
-58
+I have two files ready: a PowerShell script ("1_CREATE_USERS") for creating users and a list of random names in plain text ("names.txt").
+
+<br />
+<br />
+<br />
+
+ - First, we will look at the plain text file created with a free online random name generator. These names will be used to create Active Directory Domain Users. We have 1000+ user names ready.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/KVwJXau.png">
@@ -715,8 +733,8 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-
-59
+ - Window PowerShell ISE (Integrated Scripting Environment) is a coding tool that lets users write, test, and debug PowerShell scripts. 
+ - Run Windows PowerShell ISE as administrator. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/q0VjRvh.png">
@@ -726,17 +744,14 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
-60
+ - Open the prepared PowerShell script "1_CREATE_USERS."
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/z14KYng.png">
 <br />
 <br />
 <br />
-<br />
 
-
-61
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/T1QLusW.png">
@@ -745,7 +760,16 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
-62
+
+---
+***Code Breakdown***
+
+<br />
+<br />
+<br />
+
+ - Line 1: This variable is going to store the Password that all of the user accounts are going to use. (I set up as "Password1")
+ - Line 2:  Pulls all the names from the "names.txt" file and puts them as an array into the variable `$User_First_Last_List`
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/Rw8uFXo.png">
