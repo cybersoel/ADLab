@@ -532,7 +532,7 @@ The purpose of installing RAS (Remote Access Server) / NAT (Network Address Tran
 
 
  - Check the box [use this public interface to connect to the Internet] (if this check box is not active, close the [Routing and Remote Access] window, and try opening it again)
- - Select [_INTERNET_] > [Next] > [Next] > [Finish]
+ - Select \[_INTERNET_] > [Next] > [Next] > [Finish]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/BedkbQY.png">
