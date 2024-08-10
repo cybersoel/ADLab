@@ -92,7 +92,7 @@ Windows
 
 - VM Name and Operating System
   - Open Oracle VirtualBox
-  - Click on [New] 
+  - click [New] 
   - Name: Domain_Controller (or whatever name you prefer)
   - ISO Image: browse and pick the Windows Server ISO file
   - Check the box [Skip Unattended Installation]
@@ -155,7 +155,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 
 
- - Set up your Password for the built-in Admin account (in this lab: Password1). You will be asked to press [Ctrl+Alt+Delete] on the locked screen. Instead of using a keyboard, manually click on [input] > [keyboard] >[Insert Ctrl-Alt-Del] at the top-left of your screen. 
+ - Set up your Password for the built-in Admin account (in this lab: Password1). You will be asked to press [Ctrl+Alt+Delete] on the locked screen. Instead of using a keyboard, manually click [input] > [keyboard] >[Insert Ctrl-Alt-Del] at the top-left of your screen. 
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/fNtMwMv.png">
@@ -175,7 +175,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Open [This PC], and click on the remote drive: [VirtualBox Guest Addition CD drive]
+ - Open [This PC], and click the remote drive: [VirtualBox Guest Addition CD drive]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/yyBpdJG.png">
@@ -183,8 +183,8 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Double-click on [VboxWindowsAddition-amd64]
- - Install with default settings. When you are prompt to reboot after installation, click on [I want to manually reboot later]
+ - Double-click [VboxWindowsAddition-amd64]
+ - Install with default settings. When you are prompt to reboot after installation, click [I want to manually reboot later]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/a6DvkAD.png">
@@ -212,7 +212,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Go to network setting, click on [Change adapter options]
+ - Go to network setting, click [Change adapter options]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/S7SsvGn.png">
@@ -250,7 +250,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
- - Right-click the "X_Internal_X" and click on [Properties]
+ - Right-click the "X_Internal_X" and click [Properties]
  - In the [Networking] tab, select [ Internet Protocol Version 4] > [Properties]
 <p align="center">
 <br/>
@@ -273,7 +273,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 [back to top](#toc)
 ## Installing ADDS (Active Directory Domain Service)
 
- - Open [Server Manager]. Click on [Add roles and features]
+ - Open [Server Manager]. click [Add roles and features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4yo7XTQ.png">
@@ -282,7 +282,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - You will be asked to pick a server on which you want to install Active Directory. Choose [DomainController]. Click on [Next]
+ - You will be asked to pick a server on which you want to install Active Directory. Choose [DomainController]. click [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/4Zm3ome.png">
@@ -291,7 +291,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
   
- - Choose ADDS (Active Directory Domain Service). Click on [Next] and [Install]
+ - Choose ADDS (Active Directory Domain Service). click [Next] and [Install]
        - **Again, any configuration options not mentioned in the walkthrough can be left at their default settings**
 <p align="center">
 <br/>
@@ -307,7 +307,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
 
  - We've successfully installed the active directory domain services software. However, we still need to configure a domain.
- - Click on the yellow notification sign for Post-deployment Configuration.
+ - click the yellow notification sign for Post-deployment Configuration.
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/5i34KvY.png">
@@ -396,7 +396,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Type your first and last name. Set up login name. Click on [Next]
+ - Type your first and last name. Set up login name. click [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/PjwmtNM.png">
@@ -417,7 +417,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 
  - We have successfully created a new user account. However, we need to set up the User as Domain Admin.
  - Go to [Properties] of the new User.
- - Select [Member Of] > [Add]. Type "Domain Admins" for the object name. Click on [Check Name] > [OK]
+ - Select [Member Of] > [Add]. Type "Domain Admins" for the object name. click [Check Name] > [OK]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/KXnfkEz.png">
@@ -426,7 +426,7 @@ After configuring all the settings, double-click the VM. Select [next] > [Instal
 <br />
 <br />
 
- - Click on [Apply] > [Ok].
+ - click [Apply] > [Ok].
  - Now we have our very own domain admin account!
 <p align="center">
 <br/>
@@ -458,7 +458,7 @@ The purpose of installing RAS (Remote Access Server) / NAT (Network Address Tran
 <br />
 
  - We must install a Remote Access Server (RAS) before installing NAT.
- - Open [Server Manager], click on [Add roles and features]
+ - Open [Server Manager], click [Add roles and features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/71DudxG.png">
@@ -509,7 +509,7 @@ The purpose of installing RAS (Remote Access Server) / NAT (Network Address Tran
 
 
 
- - Right-click on [the domain controller server], then select [Configure and Enable Routing and Remote Access]
+ - Right-click [the domain controller server], then select [Configure and Enable Routing and Remote Access]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/kMSZSM0.png">
@@ -565,7 +565,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 <br />
 
- - Open [Server Manager]. Click on [add roles & features]
+ - Open [Server Manager]. click [add roles & features]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/06HMc7y.png">
@@ -584,7 +584,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 <br />
 
 
- - Select [DHCP role]. Click on [Next] and [Install].
+ - Select [DHCP role]. click [Next] and [Install].
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/CaZUGdN.png">
@@ -622,7 +622,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
 
- - Click on [New Scope…]
+ - click [New Scope…]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/nVvmTn8.png">
@@ -633,7 +633,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
 
- - Since this is a lab environment, let's set up the scope name as its actual range: 172.16.0.100-200. Click on [Next]
+ - Since this is a lab environment, let's set up the scope name as its actual range: 172.16.0.100-200. click [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/eU04f8K.png">
@@ -710,7 +710,7 @@ Setting up the DHCP server on our Domain Controller allows the DC to assign IP a
 
 
  - When you install Active Directory on a server, it automatically installs a DNS server. We will use the domain controller as the DNS server.
-Click on [Next]
+click [Next]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/iH3s0kP.png">
@@ -730,7 +730,7 @@ Click on [Next]
 <br />
 
 
- - If you still see red marks (state: unconfigured), right-click on the domain controller and select [Authorize] > [Refresh]
+ - If you still see red marks (state: unconfigured), right-click the domain controller and select [Authorize] > [Refresh]
 <p align="center">
 <br/>
 <img width="597" alt="Portfolio" src="https://i.imgur.com/xreaWCX.png">
