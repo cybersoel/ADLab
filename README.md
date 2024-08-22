@@ -1,3 +1,20 @@
+# Active Directory Home Lab
+
+## Key Learnings and Skills Demonstrated
+
+- **Active Directory Configuration**: Demonstrated proficiency in setting up and configuring Active Directory Domain Services (ADDS) from scratch.
+- **Network Services Management**: Gained hands-on experience in configuring and managing essential network services including DNS, DHCP, and NAT/RAS.
+- **Windows Server Administration**: Showcased skills in installing and configuring Windows Server, including server roles and features.
+- **Virtual Machine Management**: Utilized Oracle VirtualBox to create and manage multiple virtual machines, simulating a real-world network environment.
+- **PowerShell Scripting**: Developed and implemented a PowerShell script for bulk user creation, demonstrating automation skills crucial in large-scale IT environments.
+- **Network Configuration**: Configured complex networking scenarios, including setting up internal networks and managing IP addressing schemes.
+- **Troubleshooting**: Applied problem-solving skills to identify and resolve various configuration issues throughout the setup process.
+- **Documentation**: Created comprehensive, step-by-step documentation, showcasing technical writing abilities and attention to detail.
+- **Security Considerations**: Implemented basic security practices in user account management and network configuration.
+- **Client-Server Architecture**: Demonstrated understanding of client-server relationships by setting up and connecting a Windows 10 client to the domain.
+
+This project simulates a small-scale enterprise network environment, providing hands-on experience with core technologies and practices used in many corporate IT infrastructures. The skills demonstrated are directly applicable to roles in system administration, network management, and IT support, with a strong foundation for specialization in cybersecurity.
+
 <h1 align="center">Summary Diagram</h1>
 
 
