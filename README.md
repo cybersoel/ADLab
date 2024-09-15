@@ -15,6 +15,8 @@
 
 This project simulates a small-scale enterprise network environment, providing hands-on experience with core technologies and practices used in many corporate IT infrastructures. The skills demonstrated are directly applicable to roles in system administration, network management, and IT support, with a strong foundation for specialization in cybersecurity.
 
+Credit to: YT [Josh Madakor](https://www.youtube.com/@JoshMadakor)
+
 <h1 align="center">Summary Diagram</h1>
 
 
